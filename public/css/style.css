@@ -1,0 +1,580 @@
+html, body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+p, span {
+  color: #868686b9;
+}
+
+header div {
+  text-align: center;
+  background-image: url("../img/banner.jpg");
+  background-size: 100% 100%;
+  height: 700px;
+  margin-bottom: 100px;
+}
+header div div h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 80px;
+  color: white;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 150px;
+}
+header div div hr {
+  width: 570px;
+  margin-bottom: 30px;
+  border: none;
+  border: 1px solid white;
+}
+header div div span {
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+header div div a {
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+  color: #ffffff;
+}
+
+body {
+  background-color: #eeeeee8a;
+}
+
+section {
+  margin: 20px 15% 20px 15%;
+}
+section .banner1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+section .banner1 .logo {
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+section .banner1 .logo img:first-of-type {
+  width: 40px;
+  margin: 25px;
+}
+section .banner1 h2 {
+  font-size: 40px;
+  word-spacing: 10px;
+}
+section .banner1 p {
+  width: 700px;
+  text-align: center;
+  line-height: 30px;
+}
+section .banner1 button {
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: white;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 30px 0 50px 0;
+  letter-spacing: 3px;
+}
+
+.banner-col {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.banner-col div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  margin: 10px;
+  flex: 1;
+}
+.banner-col span {
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.banner-col p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  padding: 20px 10px 50px 10px;
+}
+.banner-col button {
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  letter-spacing: 3px;
+}
+
+.banner2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner2 h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 80px;
+}
+.banner2 p {
+  width: 400px;
+  text-align: center;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.banner2 button {
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #3f3f3f09;
+  width: 200px;
+  height: 50px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  letter-spacing: 3px;
+  margin-bottom: 100px;
+}
+
+hr {
+  width: 100px;
+  border: 1px solid black;
+  align-self: center;
+  margin-bottom: 60px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer .reseaux {
+  margin-bottom: 40px;
+}
+footer .reseaux a img {
+  height: 15px;
+  width: auto;
+  padding: 10px;
+}
+footer span {
+  color: #868686f1;
+  margin-bottom: 80px;
+  font-size: 13px;
+}
+footer span a {
+  color: #868686f1;
+  text-decoration: none;
+  border-bottom: 1px dotted #868686f1;
+  font-size: 13px;
+}
+
+@media (max-width: 576px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header div {
+    background-image: url("../img/banner.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  header div div h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  header div div hr {
+    width: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border: 1px solid white;
+  }
+  header div div span {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 5px;
+  }
+  header div div a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px dotted white;
+    color: #ffffff;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  section .banner1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+  }
+  section .banner1 .logo {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  section .banner1 .logo img:first-of-type {
+    width: 40px;
+    margin: 25px;
+  }
+  section .banner1 h2 {
+    font-size: 20px;
+    word-spacing: 10px;
+    text-align: center;
+  }
+  section .banner1 p {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+  }
+  section .banner1 button {
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 30px 0 50px 0;
+    letter-spacing: 3px;
+  }
+
+  .banner-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .banner-col div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin: 10px;
+    flex: 1;
+  }
+  .banner-col span {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .banner-col p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px 10px 50px 10px;
+  }
+  .banner-col button {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    letter-spacing: 3px;
+  }
+
+  .banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner2 h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .banner2 p {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  .banner2 button {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #3f3f3f09;
+    width: 100px;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+  }
+
+  hr {
+    width: 100px;
+    border: 1px solid black;
+    align-self: center;
+    margin-bottom: 60px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+  }
+  footer .reseaux {
+    margin-bottom: 40px;
+  }
+  footer .reseaux a img {
+    height: 10px;
+    width: auto;
+    padding: 5px;
+  }
+  footer span {
+    color: #868686f1;
+    margin-bottom: 80px;
+    font-size: 13px;
+    text-align: center;
+  }
+  footer span a {
+    color: #868686f1;
+    text-decoration: none;
+    border-bottom: 1px dotted #868686f1;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header div {
+    background-image: url("../img/banner.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  header div div h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 40px;
+  }
+  header div div hr {
+    width: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid white;
+  }
+  header div div span {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 10px;
+  }
+  header div div a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px dotted white;
+    color: #ffffff;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  section .banner1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+  }
+  section .banner1 .logo {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  section .banner1 .logo img:first-of-type {
+    width: 40px;
+    margin: 25px;
+  }
+  section .banner1 h2 {
+    font-size: 20px;
+    word-spacing: 10px;
+    text-align: center;
+  }
+  section .banner1 p {
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+  }
+  section .banner1 button {
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 30px 0 50px 0;
+    letter-spacing: 3px;
+  }
+
+  .banner-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .banner-col div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin: 10px;
+    flex: 1;
+  }
+  .banner-col span {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .banner-col p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px 10px 50px 10px;
+  }
+  .banner-col button {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    letter-spacing: 3px;
+  }
+
+  .banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner2 h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .banner2 p {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  .banner2 button {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #3f3f3f09;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+  }
+
+  hr {
+    width: 100px;
+    border: 1px solid black;
+    align-self: center;
+    margin-bottom: 60px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+  }
+  footer .reseaux {
+    margin-bottom: 40px;
+  }
+  footer .reseaux a img {
+    height: 15px;
+    width: auto;
+    padding: 10px;
+  }
+  footer span {
+    color: #868686f1;
+    margin-bottom: 80px;
+    font-size: 13px;
+    text-align: center;
+  }
+  footer span a {
+    color: #868686f1;
+    text-decoration: none;
+    border-bottom: 1px dotted #868686f1;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
